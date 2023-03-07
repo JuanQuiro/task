@@ -6,7 +6,7 @@ export let TareasItem = ({estadoItems}) => {
 
   const eliminarItem = (e) => {
     const NombreDeTask = e.target.parentElement.parentElement.querySelector("h2").textContent;
-    alert(`No, no vas poder eliminar ${NombreDeTask}`)
+    alert(`No, no vas a poder eliminar ${NombreDeTask}`)
   }
 
   return (
