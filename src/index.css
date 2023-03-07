@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .normal {
+        @apply grid grid-cols-2 border-4 border-black p-2 rounded-lg m-3 bg-black; 
+    }
+    .informativo {
+        @apply grid grid-cols-2 border-4 border-sky-500 p-2 rounded-lg m-3 bg-black;
+    }
+    .revisar {
+        @apply grid grid-cols-2 border-4 border-yellow-400 p-2 rounded-lg m-3 bg-black;
+    }
+    .realizado {
+        @apply grid grid-cols-2 border-4 border-green-900 p-2 rounded-lg m-3 bg-black;
+    }
+    .importante {
+        @apply grid grid-cols-2 border-4 border-red-600 p-2 rounded-lg m-3 bg-black;
+    }
+}
